@@ -17,6 +17,10 @@
             font-family: 'JetBrains Mono', monospace;
         }
     </style>
+
+    <!-- resize avatar CSS -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-indigo-500 selection:text-white">
 
@@ -108,6 +112,7 @@
                         <h4 class="font-bold text-xl text-slate-900">Defensive Posture Activated</h4>
                         <p class="mt-3 text-sm text-slate-500 leading-relaxed">Continuous network monitoring, proactive vulnerability management, and rapid incident response readiness.</p>
                     </div>
+
                     <!-- Decorative background element -->
                     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-indigo-400 rounded-full opacity-20 blur-3xl z-0"></div>
                 </div>
@@ -151,7 +156,6 @@
                         <li>✔️ Log Parsing & Alerts</li>
                     </ul>
                 </div>
-
                 <!-- Service 4: App & Infrastructure Support -->
                 <div class="p-6 rounded-2xl border border-slate-100 hover:border-indigo-100 hover:bg-indigo-50/20 transition group">
                     <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">🖥️</div>
@@ -177,6 +181,21 @@
                         <li>✔️ Custom Cross-Platform Applications</li>
                         <li>✔️ Seamless API & Database Integrations</li>
                         <li>✔️ High-Performance Web Architecture</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6: Home & Small Office Tech Support -->
+                <div class="p-6 rounded-2xl border border-slate-100 hover:border-indigo-100 hover:bg-indigo-50/20 transition group">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">🏠</div>
+                    <h3 class="font-bold text-xl text-slate-900">Home & Small Office Tech Support,</h3>
+                    <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                        Helping households and small teams stay secure, connected, and confidently set up with modern, reliable technology.
+                    </p>
+                    <ul class="mt-4 text-xs text-slate-600 space-y-2 mono">
+                        <li>✔️ Secure Home & Small Office Network Setup</li>
+                        <li>✔️ Smart‑Home Device Configuration & Hardening</li>
+                        <li>✔️ Website Hosting & Domain Setup Assistance</li>
+                        <li>✔️ Small‑Scale E‑Commerce Configuration & Deployment</li>
                     </ul>
                 </div>
             </div>
@@ -232,28 +251,88 @@
     </div>
 
     <!-- Contact Section -->
-
     <section id="contact" class="bg-white border-t border-slate-100 py-20">
         <div class="max-w-3xl mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Need Your Systems Hardened or Automated?</h2>
             <p class="mt-4 text-slate-600 max-w-md mx-auto">
                 Reach out for a quick, complimentary health check on your site, server, or workflow.
             </p>
+        </div>
 
-            <div class="mt-10 inline-flex flex-col sm:flex-row items-center gap-4 p-2 bg-slate-50 border border-slate-200 rounded-2xl w-full max-w-md mx-auto">
-                <span class="mono text-sm px-4 py-2 text-slate-600 select-all block w-full sm:w-auto text-center sm:text-left">
-                    natebone@outlook.com.au
-                </span>
-                <a href="mailto:natebone@outlook.com.au" class="bg-indigo-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-indigo-700 transition shadow-md shadow-indigo-100 w-full sm:w-auto text-center">
-                    Email Me
-                </a>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="flex justify-center">
+            <div class="grid md:grid-cols-2 gap-8 items-start w-full max-w-5xl">
+
+                <div>
+                    <h3 class="text-2xl font-semibold">Let's spin up a project</h3>
+                    <p class="mt-2 text-[var(--muted)]">
+                        Have an idea, a broken script, or a feature to build? I usually respond faster than a server ping.
+                    </p>
+
+                    <p class="mt-6 text-xs text-[var(--muted)]">
+                        Prefer LinkedIn? Connect there for quick networking and portfolio items.
+                    </p>
+
+                    <!-- Calendly badge widget begin -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <script type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/njrbone/30min', text: 'Schedule time with me', color: '#af00ff', textColor: '#ffffff', branding: true }); }</script>
+                    <!-- Calendly badge widget end -->
+                    <!-- LinkedIn Button -->
+                    <div class="mt-3">
+                        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+                           class="inline-flex items-center gap-2 px-4 py-3 bg-white border border-purple-500/30 rounded-md text-sm font-medium text-slate-900 shadow
+                            hover:border-purple-500 hover:shadow-purple-500/40 hover:shadow-lg transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#0A66C2" viewBox="0 0 24 24">
+                                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-8.2c0-2-.1-4.5-2.7-4.5-2.7 0-3.1 2.1-3.1 4.3V24h-4V8z" />
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- PURPLE WIREFRAME BOX -->
+                <form class="mt-6 p-6 rounded-lg border border-purple-500/30 bg-transparent backdrop-blur-md shadow-lg"
+                      onsubmit="event.preventDefault(); alert('Use mailto or integrate a backend for form handling.');">
+
+                    <label class="block text-sm text-[var(--muted)]">Name</label>
+                    <input class="mt-1 w-full rounded-md bg-white border border-purple-500/30 px-3 py-2 text-slate-900 text-sm focus:border-purple-400"
+                           placeholder="Your name" />
+
+                    <label class="block text-sm text-[var(--muted)] mt-4">Email</label>
+                    <input class="mt-1 w-full rounded-md bg-white border border-purple-500/30 px-3 py-2 text-slate-900 text-sm focus:border-purple-400"
+                           placeholder="you@example.com" />
+
+                    <label class="block text-sm text-[var(--muted)] mt-4">Message</label>
+                    <textarea class="mt-1 w-full rounded-md bg-white border border-purple-500/30 px-3 py-2 text-slate-900 text-sm focus:border-purple-400"
+                              rows="4" placeholder="Share a quick brief on your goals or any issues you’d like resolved. We’ll review before the session to optimise your time‑to‑solution."></textarea>
+
+                    <div class="mt-4 flex justify-end">
+                        <button type="submit"
+                                class="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-md text-sm font-medium shadow text-white">
+                            Send
+                        </button>
+
+                    </div>
+                </form>
+
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-100 bg-slate-50 py-8 text-center text-xs text-slate-500">
-        <p>&copy; 2026 Nathan Bone. Systems, Security & Automation Specialist.</p>
+    <!-- Footer Section -->
+
+    <footer class="border-t border-slate-100 bg-slate-50 py-8">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">
+            <img src="assets/images/chibiav.png" alt="Avatar" class="contact-avatar">
+            <p class="text-xs text-slate-500">
+                &copy; 2026 Nathan Bone. Systems, Security & Automation Specialist.
+            </p>
+
+        </div>
     </footer>
 
 </body>

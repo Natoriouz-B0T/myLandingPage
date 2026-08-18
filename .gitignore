@@ -1,1 +1,34 @@
 
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Python / Virtual Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Kotlin / Android / Build Artifacts
+build/
+bin/
+out/
+.gradle/
+local.properties
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.pem
+secrets.json
+
+# Databases
+*.sqlite3
+*.db
+mysql_history.log
+
+# OS Generated Junk
+.DS_Store
+Thumbs.db
